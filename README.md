@@ -1,6 +1,6 @@
-# A Software 3D Graphics Renderer.
- 
-The aim of this project was to learn how computers render 3D graphics. To do this, a 3D scene was created and a simple unit cube can be seen rotating around a world axis.
+# 3D-Engine
+
+This project consists of a Software 3D Graphics Renderer. The aim of this project was to learn how computers render 3D graphics. To do this, a 3D scene was created and a simple unit cube can be seen rotating around a world axis.
  
 Upon initialisation the Engine will create an instance of a camera, the unit cube and a world axes. The controls are as follows:
  
