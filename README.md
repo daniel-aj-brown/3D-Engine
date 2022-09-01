@@ -12,6 +12,7 @@ The 3D effect is created by keeping track of all vertices in 3D space, multiplyi
  
 Next, by calculating the cross products of two vectors calculated from three vertices on each face we can find the normal to the face which is then normalised. This normal is then compared with the camera's look direction with the dot product, if the value of less than 0 the face is visible and must be drawn. The dot product is then calculated between the normal and the single light in the scene to determine its shading.
  
-Finally a polygon of the appropriate shade is drawn on the screen for each face to give the illusion of 3D.
- 
-More objects can be added to the scene to create a basic 3D world.
+Finally a polygon of the appropriate shade is drawn on the screen for each face to give the illusion of 3D. More objects can be added to the scene to create a basic 3D world.
+
+Please ensure you have the Pygame module installed on your system before running this project.
+
