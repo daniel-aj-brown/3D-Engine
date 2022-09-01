@@ -18,8 +18,10 @@ class threeDEngine:
         self.projection = Projection(self)
 
         self.cube = Object(self, [1, 0, 0])
-        self.world_axes = Axes(self)
-        self.world_axes.scale(2.5)
+        self.world_axis = Axis(self)
+        self.world_axis.scale(2.5)
+
+        self.angle = 0
 
     def input(self):
         for event in pg.event.get():
@@ -30,6 +32,7 @@ class threeDEngine:
     def update(self):
         self.cube.rotate_y(self.dt * 0.001)
         self.cube.rotate_x(self.dt * 0.0005)
+
 
     def draw(self):
         self.screen.fill(LIGHTBLUE)
