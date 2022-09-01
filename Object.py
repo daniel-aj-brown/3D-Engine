@@ -94,8 +94,11 @@ class Object:
 
         return  cross_product
 
+    #new
+    def composite(self, angle):
+        self.vertexes = self.vertexes @ compositeTransoform(angle, self.pos)
 
-class Axes(Object):
+class Axis(Object):
     def __init__(self, render):
         super().__init__(render, [0, 0, 0])
         self.vertexes = np.array([(0, 0, 0, 1), (1, 0, 0, 1), (0, 1, 0, 1), (0, 0, 1, 1)])
