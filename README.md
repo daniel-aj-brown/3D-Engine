@@ -1,4 +1,4 @@
-A Software 3D Graphics Renderer.
+# A Software 3D Graphics Renderer.
  
 The aim of this project was to learn how computers render 3D graphics. To do this, a 3D scene was created and a simple unit cube can be seen rotating around a world axis.
  
